@@ -16,7 +16,7 @@ public class EjecutorEmprendimiento {
         LocalDate fechaActual = LocalDate.now();  
 
         Problema9_Emprendimiento emprendimientoX = new Problema9_Emprendimiento(
-            "Tech Innovations", 1234567890, "Tecnología", "Juan Pérez",
+            "Tech Innovations", 1234567890, "Tecnología", "Paulo Correa",
             "Quito, Ecuador", fechaActual, fechaInicio, 12000.00
         );
 
@@ -26,7 +26,7 @@ public class EjecutorEmprendimiento {
         emprendimientoX.clasificarEmprendimiento();
 
         emprendimientoX.actualizarInformacion(
-            "Tech Solutions", "Tecnología Avanzada", "Juan Pérez", 
+            "Tech Solutions", "Tex avanzada", "Paulo Correa", 
             "Guayaquil, Ecuador", 25000.00
         );
 

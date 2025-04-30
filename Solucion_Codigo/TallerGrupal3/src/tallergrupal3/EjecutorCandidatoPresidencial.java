@@ -13,7 +13,7 @@ public class EjecutorCandidatoPresidencial {
         Problema10_CandidatoPresidencial problema = 
                 new Problema10_CandidatoPresidencial();
 
-        Problema10_CandidatoPresidencial.CandidatoPresidencial candidato =
+        Problema10_CandidatoPresidencial.CandidatoPresidencial candidatoX =
                 problema.new CandidatoPresidencial(
                         "Ana Perez",
                         42,
@@ -23,9 +23,9 @@ public class EjecutorCandidatoPresidencial {
                         35
                 );
 
-        System.out.println(candidato);
+        System.out.println(candidatoX);
 
-        if (candidato.evaluarEdadMinima(candidato.edadMinima)) {
+        if (candidatoX.evaluarEdadMinima(candidatoX.edadMinima)) {
             System.out.println("✅ El candidato cumple con la edad minima.");
         } else {
             System.out.println("❌ El candidato NO cumple con la edad minima.");

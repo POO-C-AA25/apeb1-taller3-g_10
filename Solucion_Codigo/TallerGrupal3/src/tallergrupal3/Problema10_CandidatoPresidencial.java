@@ -83,11 +83,11 @@ public class Problema10_CandidatoPresidencial {
     @Override
     public String toString() {
         return "CandidatoPresidencial" +
-                "Nombre='" + nombre + '\n' +
+                "Nombre=" + nombre + '\n' +
                 "Edad=" + edad +'\n'+
                 "Edad Minima Requerida=" + edadMinima +'\n'+
-                "Partido Politico='" + partidoPolitico + '\n' +
-                "Plan de Gobierno='" + planGobierno + '\n' +
+                "Partido Politico=" + partidoPolitico + '\n' +
+                "Plan de Gobierno=" + planGobierno + '\n' +
                 "Numero de Propuestas Clave=" + numPropuestasClave;
     }
 }

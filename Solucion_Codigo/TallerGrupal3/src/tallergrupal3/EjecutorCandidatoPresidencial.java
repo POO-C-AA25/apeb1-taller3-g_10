@@ -15,7 +15,7 @@ public class EjecutorCandidatoPresidencial {
 
         Problema10_CandidatoPresidencial.CandidatoPresidencial candidato =
                 problema.new CandidatoPresidencial(
-                        "Ana Pérez",
+                        "Ana Perez",
                         42,
                         "Partido Futuro",
                         "Educación, salud y empleo",

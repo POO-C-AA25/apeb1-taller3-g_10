@@ -12,7 +12,8 @@ public class EjecutorEquivalenteHora {
         Random random = new Random();
         int horasIngresadas = random.nextInt(1000);
 
-        Problema2_EquivalenteHora equivalenteHoraX = new Problema2_EquivalenteHora(horasIngresadas);
+        Problema2_EquivalenteHora equivalenteHoraX = new 
+        Problema2_EquivalenteHora(horasIngresadas);
 
         System.out.println("\n" + equivalenteHoraX);
 

@@ -15,6 +15,8 @@ public final class Problema5_Calificaciones {
     public double calificacion3;
     public double promedioCalificaciones;
     public String estadoCalificaciones;
+    public Problema5_Calificaciones(){
+    }
     public Problema5_Calificaciones(String nombre, double calificacion1, 
             double calificacion2, double calificacion3) {
         this.nombre = nombre;

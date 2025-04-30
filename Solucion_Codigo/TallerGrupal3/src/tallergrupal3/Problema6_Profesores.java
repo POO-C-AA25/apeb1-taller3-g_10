@@ -15,7 +15,8 @@ public class Problema6_Profesores {
     public double sueldoBasico;
     public double sueldoTotal;
     public int cedula;
-
+    public Problema6_Profesores(){
+    }
     public Problema6_Profesores(String nombre, String apellido, double sueldoBasico, 
             int cedula) {
         this.nombre = nombre;

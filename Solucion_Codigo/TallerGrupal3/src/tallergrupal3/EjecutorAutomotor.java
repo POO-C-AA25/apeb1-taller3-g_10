@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package tallergrupal3;
 
 /**
@@ -10,7 +7,7 @@ package tallergrupal3;
  */
 public class EjecutorAutomotor {
     public static void main(String[] args) {
-        Automotor automotorX = new Automotor(
+        Problema7_Automotor automotorX = new Problema7_Automotor(
                1102547890,       
                 "Toyota",         
                 2015,             

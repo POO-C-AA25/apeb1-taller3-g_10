@@ -10,8 +10,10 @@ public class Problema7_Automotor {
     public double valorMatricula;
     public int anioAntiguedad;
     
-    public Problema7_Automotor(){}
-    public Problema7_Automotor(int cedula, String marcaVehiculo, int anioFabricacion,
+    public Problema7_Automotor(){
+    }
+    public Problema7_Automotor(int cedula, String marcaVehiculo, 
+            int anioFabricacion,
             double valorVehiculo,
             double valorMatricula, int anioAntiguedad) {
         this.cedula = cedula;

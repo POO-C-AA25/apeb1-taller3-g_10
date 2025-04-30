@@ -14,6 +14,8 @@ public class Problema4_EquipoCelulares {
     public double costoFinal;
     public int direccionMac;
     public int informacionIMEI;
+    public Problema4_EquipoCelulares(){
+    }
     public Problema4_EquipoCelulares(String sistemaOperativo, int tamanioPantalla, 
             double costoInicial,int iva, double ivaCostoInicial, 
             double costoFinal, int direccionMac, int informacionIMEI) {
